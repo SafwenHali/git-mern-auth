@@ -8,7 +8,7 @@ function App() {
 
     async function registerUser(event){
       event.preventDefault();
-      const response = await fetch('http://localhost:7000/api/createUser' ,{
+      const response = await fetch('http://localhost:7000/api/signup' ,{
         method: 'POST',
         headers: {
             'Content-Type':'application/json'
